@@ -1,0 +1,9 @@
+﻿body {font-family: 'Segoe UI', sans-serif; background-color:darkseagreen;}
+span {font-style: italic;}
+#about, #reset {width:200px; margin-top: 10px; margin-bottom: 10px;}
+#ul {color:plum;}
+.modal-header {font-size: 50px; color: crimson;}
+.modal-footer {font-size: 20px; color: orange;}
+.col-md-12 {text-align:center;}
+#canvas{border:solid; margin-left:100px; background-color:lightcyan;}
+#reset{visibility:hidden;}

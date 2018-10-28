@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="col-md-12">
+        <a id="about" href="#myModal" class="btn btn-info" data-toggle="modal">ABOUT</a>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="col-md-12">
+        <a id="reset" class="btn btn-warning" onclick="clearField()">RESET</a>
+    </div>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    FIGURES
+                </div>
+                <div class="modal-body">
+                    <ul id="ul">
+                        <li>
+                            Choose three points along which a parallelogram with a circle at its center of mass will be built.
+                        </li>
+                        <li>
+                            Freely move points in the screen area.
+                        </li>
+                        <li>
+                            To start again - click RESET.
+                        </li>
+                        <li>
+                            ENJOY...
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Dmitriy Semysiuk</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
